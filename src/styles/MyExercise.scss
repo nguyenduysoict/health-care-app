@@ -1,0 +1,44 @@
+.my-exercise-block {
+  height: 264px;
+  padding: 16px 24px;
+  background-color: var(--dark);
+  margin-bottom: 56px;
+  color: var(--light);
+
+  .exercise-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    ul {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+      padding-left: 0;
+      li {
+        border-bottom: 1px solid var(--gray);
+        margin: 8px 24px;
+      }
+    }
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--gray);
+    border-radius: 4px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 4px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-1);
+  }
+}

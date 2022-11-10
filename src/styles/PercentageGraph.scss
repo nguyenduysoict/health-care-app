@@ -1,0 +1,17 @@
+.chart-container {
+  background-color: var(--dark-1);
+  padding: 16px 24px;
+  .interval-item {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 20px;
+    border-radius: 24px;
+    background-color: var(--light);
+    color: var(--primary);
+    cursor: pointer;
+    &.active {
+      background-color: var(--primary);
+      color: var(--light);
+    }
+  }
+}

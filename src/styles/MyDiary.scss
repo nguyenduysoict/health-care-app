@@ -1,0 +1,13 @@
+.my-diary-container {
+    .diary-wrapper {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      .diary-item {
+        width: 231px;
+        height: 231px;
+        border: 2px solid var(--border);
+        padding: 16px;
+      }
+    }
+  }

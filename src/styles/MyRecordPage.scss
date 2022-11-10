@@ -1,0 +1,46 @@
+.record-page-container {
+  margin: 56px auto;
+  width: 960px;
+  .section-box {
+    width: 288px;
+    height: 288px;
+    border: 24px solid var(--primary);
+    position: relative;
+    margin-bottom: 56px;
+    & > .img {
+      filter: grayscale(100%);
+    }
+    .body-record {
+      background-image: url("../resources/MyRecommend-1.jpg");
+    }
+    .my-exercise {
+      background-image: url("../resources/MyRecommend-2.jpg");
+    }
+    .my-diary {
+      background-image: url("../resources/MyRecommend-3.jpg");
+    }
+    .box-content {
+      position: absolute;
+      top: 80px;
+      .section-title {
+        color: var(--primary);
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 8px;
+      }
+      .record-btn {
+        width: 160px;
+        height: 24px;
+        line-height: 24px;
+        background-color: var(--primary-1);
+        text-align: center;
+        margin: 0 auto;
+        color: var(--light);
+      }
+    }
+  }
+  .body-record-chart-block {
+    margin-bottom: 56px;
+    height: 320px;
+  }
+}

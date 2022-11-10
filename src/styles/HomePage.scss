@@ -1,0 +1,40 @@
+.home-page-container{
+    color: var(--light);
+    .achievement-container{
+        height: 316px;
+        .achievement-rate-block{
+            background-image: url('../resources/d01.jpg');
+            width: 540px;
+        }
+        .date-achievement, .achievement-rate{
+            text-shadow: 0px 0px 6px #FC7400;
+            color: var(--light);
+        }
+    }
+
+    .hexagon-container{
+        margin: 22px auto;
+        justify-content: center;
+        &>div{
+            margin: 0 42px;
+        }
+    }
+
+    .meal-history-container{
+        .history-item-block{
+            height: 234px;
+            position: relative;
+            .meal-info{
+                position:absolute;
+                bottom: 0;
+                left: 0;
+                background-color: var(--primary);
+                width: 120px;
+                height: 32px;
+                line-height: 32px;
+                padding: 0 8px;
+            }
+        }
+    }
+
+}

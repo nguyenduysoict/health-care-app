@@ -1,0 +1,21 @@
+$light: #FFFFFF;
+$primary: #FFCC21;
+$primary-1: #FF963C;
+$primary-2: #EA6C00;
+$secondary: #8FE9D0;
+$dark: #414141;
+$dark-1: #2E2E2E;
+$gray: #777777;
+$linear-gradient: linear-gradient(#FFCC21, #FF963C);
+
+.primary-color{
+    color: var(--primary);
+}
+
+.primary-1-color{
+    color: var(--primary-1);
+}
+
+.light-color{
+    color: var(--light);;
+}

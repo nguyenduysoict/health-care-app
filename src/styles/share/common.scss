@@ -1,0 +1,37 @@
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.background-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  .row {
+    .col {
+      padding: 4px;
+    }
+  }
+}
+
+.margin-center{
+  margin: 0 auto;
+}
+
+.pointer{
+  cursor: pointer;
+  &:hover{
+    opacity: 0.9;
+  }
+}
+
+.font-notosans{
+  font-family: NotoSans-Light;
+}
+
+.font-inter{
+  font-family: Inter-Regular;
+}

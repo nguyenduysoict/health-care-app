@@ -1,0 +1,18 @@
+.main-footer{
+    height: 128px;
+    min-height: 128px;
+    background-color: var(--dark);
+    font-size: 11px;
+    .footer-container{
+        width: 960px;
+        margin:0 auto;
+        a{
+            text-decoration: none;
+            color: var(--light);
+            margin-right: 45px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

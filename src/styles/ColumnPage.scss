@@ -1,0 +1,14 @@
+.column-page-container {
+  margin-top: 56px;
+  margin-bottom: 56px;
+  .column-box {
+    background-color: var(--dark-1);
+    padding: 24px 16px;
+    text-align: center;
+    .line {
+      width: 56px;
+      border: 1px solid var(--light);
+      margin: 8px auto;
+    }
+  }
+}
